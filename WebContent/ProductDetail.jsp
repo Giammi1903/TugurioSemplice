@@ -18,7 +18,10 @@
 <html lang="it">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<link rel="stylesheet" type="text/css" href="css/productDetail.css">
+    	<link rel="stylesheet" type="text/css" href="css/scrollbar.css">
+		<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700;900&display=swap" rel="stylesheet">
 		<title>TugurioSemplice - <%= product.getNome() %></title>
 		<style>
 			.product-container {
@@ -126,7 +129,7 @@
 	</head>
 	<body>
 		<%@ include file="header.jsp" %>
-		
+		<div class="main-content">
 		<div class="product-container">
 			<div class="product-image">
 				<img src="<%= product.getImmagine() %>" alt="<%= product.getNome() %>" onerror="this.src='photo/placeholder.jpg'; this.onerror=null;">
@@ -172,6 +175,7 @@
 					<p>Codice prodotto: <%= product.getIdProdotto() %></p>
 				</div>
 			</div>
+		</div>
 		</div>
 		
 		<%@ include file="footer.jsp" %>
