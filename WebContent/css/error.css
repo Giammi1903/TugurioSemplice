@@ -1,0 +1,62 @@
+body {
+	font-family: 'Josefin Sans', sans-serif	;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	margin: 0;
+	flex-direction: column;
+ }
+
+.container {
+	text-align: center;
+	background-color: #fff;
+	padding: 40px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	font-size: 1.2em;
+	margin-bottom: 20px;
+    font-weight: 100;
+	color: black;
+	border: 1px solid #ddd;
+}
+
+.error-image {
+	max-width: 300px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-size: 3em;
+	margin-bottom: 10px;
+}
+
+a.button {
+    background-color: #74292c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+a.button:hover {
+    opacity: 0.7;
+}
+
+.logo {
+    width: 20%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer, #footer {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    align-self: stretch;
+}
